@@ -1,0 +1,51 @@
+body{
+  background-color: antiquewhite;
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+h1{
+  font-family: sans-serif;
+  font-size: 1.5em;
+}
+
+video{
+  width: 30%;
+  margin-bottom: 2%;
+}
+.center{
+  display: flex;
+  flex-direction: row;
+  font-family: serif;
+  margin: 2%;
+  padding-bottom: 2%;
+  border-bottom: 1px solid deeppink;
+}
+.center label{
+  margin-bottom: 2%;
+}
+.center select{
+  height: 25px;
+  
+}
+
+.model , .processor , .ram , .harddisk , .display{
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  margin-right: 10px;
+}
+#btn , #dbtn{
+  background-color: crimson;
+  color: rgb(242, 245, 247);
+  border: none;
+  height: 25px;
+}
+#btn:hover,#dbtn:hover{
+  background-color: blueviolet;
+  color: crimson;
+}
